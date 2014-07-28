@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+	<timekpr>
+		<user name="test">
+			<modified>
+				1970-01-01 01:00:00
+			</modified>
+			<constrains>
+				<constrain mode="grant" type="switch"/>
+				<constrain mode="grant" type="weekdayTimerange">
+					<time day="0" type="from">
+						07:00:00
+					</time>
+					<time day="1" type="from">
+						07:00:00
+					</time>
+					<time day="2" type="from">
+						07:00:00
+					</time>
+					<time day="3" type="from">
+						07:00:00
+					</time>
+					<time day="4" type="from">
+						07:00:00
+					</time>
+					<time day="5" type="from">
+						09:30:00
+					</time>
+					<time day="6" type="from">
+						09:30:00
+					</time>
+					<time day="0" type="to">
+						21:00:00
+					</time>
+					<time day="1" type="to">
+						21:00:00
+					</time>
+					<time day="2" type="to">
+						21:00:00
+					</time>
+					<time day="3" type="to">
+						21:00:00
+					</time>
+					<time day="4" type="to">
+						21:00:00
+					</time>
+					<time day="5" type="to">
+						22:30:00
+					</time>
+					<time day="6" type="to">
+						22:30:00
+					</time>
+				</constrain>
+				<constrain mode="grant" type="weeklyCountdown">
+					<time>
+						02:00:00
+					</time>
+				</constrain>
+				<constrain mode="grant" type="dailyCountdown">
+					<time day="0">
+						01:00:00
+					</time>
+					<time day="1">
+						01:00:00
+					</time>
+					<time day="2">
+						01:00:00
+					</time>
+					<time day="3">
+						01:00:00
+					</time>
+					<time day="4">
+						01:00:00
+					</time>
+					<time day="5">
+						02:00:00
+					</time>
+					<time day="6">
+						02:00:00
+					</time>
+				</constrain>
+			</constrains>
+		</user>
+	</timekpr>
